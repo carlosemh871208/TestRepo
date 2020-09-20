@@ -11,14 +11,22 @@
 #include <stdio.h>
 #include <stdlib.h>
 
+void printText(char* text);
+
 int main(void)
 {
-	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
+	printText("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
+}
+
+void printText(char* text)
+{
+	puts(text);
 }
 
 /*
  *       Author    |    Date     |                 Description                   |
  *     Carlos Mtz  | 19/Sep/2020 | Initial Version                               |
  *     Carlos Mtz  | 19/Sep/2020 | Change code format                            |
+ *     Carlos Mtz  | 19/Sep/2020 | Added printText function                      |
  */
