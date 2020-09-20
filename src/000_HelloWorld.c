@@ -11,7 +11,8 @@
 #include <stdio.h>
 #include <stdlib.h>
 
-int main(void) {
+int main(void)
+{
 	puts("!!!Hello World!!!"); /* prints !!!Hello World!!! */
 	return EXIT_SUCCESS;
 }
@@ -19,4 +20,5 @@ int main(void) {
 /*
  *       Author    |    Date     |                 Description                   |
  *     Carlos Mtz  | 19/Sep/2020 | Initial Version                               |
+ *     Carlos Mtz  | 19/Sep/2020 | Change code format                            |
  */
